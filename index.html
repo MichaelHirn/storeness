@@ -37,6 +37,7 @@
 		 However, there is a blank style.css in the css directory should you prefer -->
 	<link rel="stylesheet" href="css/gumby.css">
 	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/odometer.css">
 
 	<script src="bower_components/gumby/js/libs/modernizr-2.6.2.min.js"></script>
 </head>
@@ -46,7 +47,7 @@
         <div class="twelve columns" style="position: absolute; top: 50%; margin-top: -20%;left: 0; width: 100%; z-index: 2;">
             <div style="height: 35%; max-height: 50%; padding: 20px;">
                 <h1 id="main-headline" class="fittext text-center shadow-close-and-heavy" gumby-rate="0.5" gumby-sizes="20|70">
-		    Erreichen Sie über 64.625.421 Menschen<br>
+		    Erreichen Sie über <span class="odometer">64625421</span> Menschen<br>
 		    direkt von Ihrem Laden aus.
 		</h1>
 		<p class="bold text-center shadow-inset"  style="color: white; margin-top: 5px; padding: 10px;">
@@ -109,6 +110,8 @@
 	<script src="js/libs/gumby.min.js"></script> -->
 	<script src="bower_components/gumby/js/plugins.js"></script>
         <script src="bower_components/gumby/js/main.js"></script>
+
+	<script src="js/odometer.js"></script>
 
 	<!-- Change UA-XXXXX-X to be your site's ID -->
 	<!--<script>
