@@ -1,0 +1,23 @@
+{
+  "name": "storeness",
+  "version": "0.0.0",
+  "authors": [
+    "Michael Hirn <michael@repricing.de>"
+  ],
+  "description": "Website of storeness.de",
+  "license": "MIT",
+  "homepage": "storeness.de",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "gumby-fittext": "~1.0.1",
+    "gumby-parallax": "~1.1.5",
+    "gumby": "git://github.com/GumbyFramework/Gumby.git#~2.5.15"
+  }
+}
