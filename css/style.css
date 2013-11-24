@@ -5,11 +5,12 @@ However, this blank file is available if you prefer
 
 .page_box { width: 100%; max-width: 100%; min-height: 90%; height: 90%;  }
 
-.page_box_background_start { background: transparent url(../img/local_store.jpg) center center no-repeat; background-size: cover; }
+.page_box_background_start { background: transparent url(../img/local_store.jpg) center center no-repeat; background-size: cover; box-shadow: 1px 1px 10px 1px; }
 
+.origami-box { height: 250px; width: 100%; box-shadow: 0 0 1px 0 rgb(235, 175, 0); margin-top: 25px; }
 .origami-icon { font-size: 85px; width: 100%; display: block; }
 .origami-content-headline { text-align: center; margin-top: 15px; }
-.origami-content-text { text-align: center; font-size: 80%; }
+.origami-content-text { text-align: center; font-size: 80%; padding: 15px; }
 
 #main-headline { color: whitesmoke; font-weight: 700; }
 #main-overlay { position: absolute; top: 0; width: 100%; height: 100%; z-index: 1; background-color: rgba(235, 175, 0, 0.55); }
