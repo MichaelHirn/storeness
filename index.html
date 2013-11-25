@@ -39,6 +39,8 @@
 	<link rel="stylesheet" href="css/style.css">
 	<link rel="stylesheet" href="css/odometer.css">
 	<link rel="stylesheet" href="css/origami.css">
+	<link rel="stylesheet" href="css/multipage">
+
 
 	<script src="bower_components/gumby/js/libs/modernizr-2.6.2.min.js"></script>
 
@@ -74,12 +76,12 @@
 	        <div class="twelve columns">
 						<h2 class="text-center shadow-inset" style="color: rgb(235, 175, 0); font-weight: 600; margin-top: 10px;">Wie macht <strong>Storeness</strong> das?</h2>
 						<hr style="border-color: rgb(235, 175, 0);"/>
-						<p style="text-align: center;">
-						  Storeness übernimmt <strong class="shadow-inset" style="color: rgb(235, 175, 0);">eigenverwandwortlich Vermarktung und Vertrieb Ihrer Artikel, im Internet</strong>.<br/>
-						  Dabei setzen wir auf Deutschlands größte Verkaufsplattform Amazon und unsere Erfahrung im online Handel.<br/>
-						  Doch das beste, wir erheben <strong class="shadow-inset" style="color: rgb(235, 175, 0);">keine Fixkosten</strong>.<br/> 
-						  Ihr Gewinn ist auch unser Gewinn. So sind wir immer angespornt, Ihre Verkaufszahlen zu steigern.<br/>
-						  Wir sind überzeugt, dass dies der <strong class="shadow-inset" style="color: rgb(235, 175, 0);">Grundstein für eine vertrauliche und vorallem erfolgreiche Zusammenarbeit</strong> mit unseren Kunden ist.<br/>
+						<p style="text-align: justify;">
+						  Storeness übernimmt <span class="shadow-inset text-highlight">eigenverwandwortlich Vermarktung und Vertrieb Ihrer Artikel, im Internet</span>.
+						  Dabei setzen wir auf Deutschlands größte Verkaufsplattform Amazon und unsere Erfahrung im online Handel.
+							Doch das beste, wir erheben <span class="shadow-inset text-highlight">keine Fixkosten</span>.
+						  Ihr Gewinn ist auch unser Gewinn. So sind wir immer angespornt, Ihre Verkaufszahlen zu steigern.
+						  Wir sind überzeugt, dass dies der <span class="shadow-inset text-highlight">Grundstein für eine vertrauliche und vorallem erfolgreiche Zusammenarbeit</span> mit unseren Kunden ist.
 						  Deshalb geben wir unseren Kunden das Recht, jederzeit die Partnerschaft mit uns auf heben zu können.
 						</p>
 						<hr style="border-color: rgb(235, 175, 0);"/>
@@ -145,11 +147,98 @@
 	    <a class="close switch" gumby-trigger="|#contact"><i class="icon-cancel" /></i></a>
 	    <div class="row">
 	      <div class="ten columns centered text-center">
-		<h2>This is a modal.</h2>
-		<p>Gumby modals are easy to make using Toggles &amp; Switches.</p>
-		<p class="btn primary medium">
-		  <a href="#" class="switch" gumby-trigger="|#contact">Close Modal</a>
-		</p>
+					<form id="multipage">
+						<fieldset id="multipage_one">
+							<h3 class="shadow-inset" style="color: rgb(235, 175, 0);">In welcher Branche sind Sie tätig?</h3>
+							<li class="field" style="text-align: left;">
+								<p style="text-align: right; color: red;">1/2</p>
+								<label class="radio" for="branche1">
+									<input name="branche" id="branche1" value="2" type="radio">
+									<span></span> Kleidung, Schuhe, Schmuck, Uhren, Accessoires
+								</label>
+								<label class="radio" for="branche2">
+									<input name="branche" id="branche2" value="2" type="radio">
+									<span></span> Haushalt, Wohnen, Baumarkt, Garten, Tierbedarf
+								</label>
+								<label class="radio" for="branche3">
+									<input name="branche" id="branche3" value="2" type="radio">
+									<span></span> Spielzeug, Bücher, Videos-Musik, Spiele
+								</label>
+								<label class="radio" for="branche4">
+									<input name="branche" id="branche4" value="2" type="radio">
+									<span></span> Sport, Freizeit, Auto-Motorrad
+								</label>
+								<label class="radio" for="branche6">
+									<input name="branche" id="branche6" value="2" type="radio">
+									<span></span> Elektronik, Schreibwaren, Bürobedarf
+								</label>
+								<label class="radio" for="branche10">
+									<input name="branche" id="branche10" value="2" type="radio">
+									<span></span> Drogerie, Beauty
+								</label>
+								<label class="radio" for="branche12">
+									<input name="branche" id="branche12" value="0" type="radio">
+									<span></span> Anderes
+								</label>
+							</li>
+						</fieldset>
+						<fieldset id="multipage_two">
+							<h3 class="shadow-inset" style="color: rgb(235, 175, 0)">Wie viel Umsatz macht Ihr Laden bisher pro Monat?</h3>
+							<li class="field" style="text-align: left;">
+								<p style="text-align: right; color: red;">2/2</p>
+								<label class="radio" for="umsatz1">
+									<input name="umsatz" id="umsatz1" value="0" type="radio">
+									<span></span> &lt; 5 000€
+								</label>
+								<label class="radio" for="umsatz2">
+									<input name="umsatz" id="umsatz2" value="1" type="radio">
+									<span></span> 5 000€ - 10 000€
+								</label>
+								<label class="radio" for="umsatz3">
+									<input name="umsatz" id="umsatz3" value="2" type="radio">
+									<span></span> 10 000€ - 20 000€
+								</label>
+								<label class="radio" for="umsatz4">
+									<input name="umsatz" id="umsatz4" value="2" type="radio">
+									<span></span> 20 000€ - 30 000€
+								</label>
+								<label class="radio" for="umsatz6">
+									<input name="umsatz" id="umsatz6" value="2" type="radio">
+									<span></span> 30 000€ - 50 000€
+								</label>
+								<label class="radio" for="umsatz10">
+									<input name="umsatz" id="umsatz10" value="2" type="radio">
+									<span></span> &gt; 50 000€
+								</label>
+							</li>	
+						</fieldset>
+						<fieldset id="multipage_three">
+							<div id="contact_true">
+								<h3 class="shadow-inset" style="color: rgb(235, 175, 0)">Glückwunsch</h3>
+								<p>
+									Wir denken, dass Storeness eine gute Partie für Ihren Laden ist.<br/>
+									Füllen Sie das Formular aus und wir sind schon bald in Kontakt.
+								</p>
+							</div>
+							<div id="contact_maybe">
+								<p>
+									Storeness und Ihr Laden passen womöglich nicht besonders gut zusammen.<br/>
+									Aber hey, wir können uns auch täuschen.
+								</p>
+							</div>
+							<ul>
+								<li class="field">
+									<input class="input" type="text" placeholder="Name" name="name" />
+								</li>
+								<li class="field">
+									<input class="input" type="email" placeholder="Email" name="email" />
+								</li>
+								<li class="field">
+									<textarea class="input textarea" placeholder="Schicken Sie uns doch auch Ihre Telefonnummer. Wir rufen Sie gerne zurück." name="nachricht" tyle="height: 105px;"></textarea>
+								</li>
+							</ul>
+						</fieldset>
+					</form>
 	      </div>
 	    </div>
 	  </div>
@@ -204,6 +293,7 @@
 
 	<script src="js/odometer.js"></script>
 	<script src="js/origami.js"></script>
+	<script src="js/multipage.js"></script>
 
 	<!-- Change UA-XXXXX-X to be your site's ID -->
 	<!--<script>
