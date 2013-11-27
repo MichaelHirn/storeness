@@ -145,11 +145,13 @@
 			// callback for successful validation on form submit
 			// if omited, form will submit normally
 			submit: function(data) {
-				alert("SUB");
 				$.ajax({
 					url: 'contact.php',
 					data: data,
-					success: function() {alert("Submitted");}
+					success: function() {
+						$('#multipage_nav').remove();
+						$('#multipage').html('<p>Vielen Dank für Ihre Anfrage.<br/>Wir melden uns so schnell wie möglich bei Ihnen.</p>');
+					}
 				});
 			} 
 		});			
