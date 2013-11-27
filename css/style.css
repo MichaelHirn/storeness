@@ -3,9 +3,10 @@ We highly recommend you use SASS and write your custom styles in sass/_custom.sc
 However, this blank file is available if you prefer
 */
 
-.page_box { width: 100%; max-width: 100%; min-height: 90%; height: 90%;  }
+.page_box { width: 100%; max-width: 100%; min-height: 90%; }
 
 .page_box_background_start { background: transparent url(../img/local_store.jpg) center center no-repeat; background-size: cover; box-shadow: 1px 1px 10px 1px; }
+.page_box_expander { max-width: 100%; }
 
 .origami-box { height: 250px; width: 100%; box-shadow: 0 0 1px 0 rgb(235, 175, 0); margin-top: 25px; }
 .origami-icon { font-size: 85px; width: 100%; display: block; }
