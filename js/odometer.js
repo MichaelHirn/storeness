@@ -16,7 +16,7 @@ od = new Odometer({
 var startValue = 60169356;
 var startDate  = new Date("2013 nov 17");
 var nowDate    = new Date();
-var diff       = (nowDate - startDate)/1000;
-var add        = 0;
+var diff       = parseFloat((nowDate - startDate)/1000);
+var add        = Math.round(diff);
 
 od.update(startValue+add);
