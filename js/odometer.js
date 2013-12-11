@@ -17,6 +17,6 @@ var startValue = 60169356;
 var startDate  = new Date("2013 nov 17");
 var nowDate    = new Date();
 var diff       = parseFloat((nowDate - startDate)/1000);
-var add        = Math.round(diff);
+//var add        = Math.round(diff);
 
-od.update(startValue+add);
+od.update(startValue+diff);
