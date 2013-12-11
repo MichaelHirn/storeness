@@ -19,4 +19,4 @@ var nowDate    = new Date();
 var diff       = parseFloat((nowDate - startDate)/1000);
 //var add        = Math.round(diff);
 
-od.update(startValue+diff);
+od.update(parseInt(startValue+diff));
