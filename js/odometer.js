@@ -5,7 +5,7 @@ var el = document.querySelector('#internet_user');
 
 od = new Odometer({
   el: el,
-  value: 0,
+  value: 60000000,
   duration: 1500,
   // Any option (other than auto and selector) can be passed in here
   format: '( ddd)',
